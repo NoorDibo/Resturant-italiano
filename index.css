@@ -1,2 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
 
+html{
+    font-size: 10px;
+    overflow: hidden;
+}
+.nav {
+    padding: 2rem;
+}
+
+.nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__list li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+.nav__list .nav__link{
+    font-size: 1.8rem;
+    font-family: "Poppins";
+    color: var(--black-2);
+    padding: 0.5rem;
+}
+
+
