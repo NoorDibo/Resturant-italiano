@@ -11,6 +11,12 @@ html{
     scroll-behavior: smooth;
 }
 
+@media only screen and (max-width: 768px){
+    .nav{
+        position: relative;
+    }
+}
+
 section{
     width: 90%;
     height: 100vh;
@@ -68,6 +74,7 @@ section nav .nav__list__wrapper li a:hover::after{
 section nav .nav__list__wrapper li a:hover{
     color: red;
 }
+
 
 
 
