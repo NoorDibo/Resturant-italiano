@@ -1,6 +1,9 @@
 #html{
     font-size: 100%;
 }
+body{
+    overflow-x: hidden;
+}
 #hero{
 position: relative;
 width: 100vw;
@@ -52,5 +55,43 @@ filter: brightness(50%);
 }
 #hero_content a:hover{
 background: navy;
+}
+#header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
+}
+#navbar {
+    display: flex;
+    justify-content: space-around;
+background: rgb(0, 0, 0, 0.5);
+}
+#navbar h1{
+    color: orange;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 2px #000;
+    font-family: cursive;
+}
+#navbar ul{
+    display: flex;
 
+}
+#navbar ul li{
+    list-style: none;
+    padding: 3px 15px 3px 15px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+#phone a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 3px 15px 3px 15px;
+    border: 1px solid orange;
+    
 }
