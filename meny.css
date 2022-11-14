@@ -82,6 +82,10 @@ background: rgb(0, 0, 0, 0.5);
     list-style: none;
     padding: 3px 15px 3px 15px;
 }
+#navbar ul li:hover,#phone a:hover,#mobile_menu ul li:hover {
+    background: navy;
+    cursor: pointer;
+}
 #navbar ul li a{
     text-decoration: none;
     color: #fff;
@@ -93,5 +97,38 @@ background: rgb(0, 0, 0, 0.5);
     font-size: 1.1rem;
     padding: 3px 15px 3px 15px;
     border: 1px solid orange;
-    
+}
+#mobile_menu{
+   display: none; 
+   height: 40px;
+   line-height: 40px;
+   background-color: magenta;
+}
+#mobile_menu ul{
+    display: flex;
+    justify-content: center;
+}
+#mobile_menu ul li{
+    list-style: none;
+    padding: 0 5px 0 5px;
+}
+#mobile_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (max-width : 768px){
+    #mobile_menu {
+        display: block;
+    }
+    #navbar ul{
+        display: none;
+    }
+    html{
+        font-size: 95%;
+    }
+}
+@media screen and (max-width : 360px){
+    html{
+        font-size: 70%;
+    }
 }
