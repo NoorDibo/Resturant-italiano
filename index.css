@@ -11,10 +11,35 @@ html{
     scroll-behavior: smooth;
 }
 
+.icone,
+.nav__close,
+.overlay{
+    display: none;
+}
+
 @media only screen and (max-width: 768px){
-    .nav{
+    section nav{
         position: relative;
     }
+
+    section nav .icone{
+        display: block;
+
+    }
+   .icone svg,
+   .nav__close svg {
+    pointer-events: none;
+    height: 30px;
+    width: 30px;
+   }
+   .nav__close {
+    display: block;
+    position: absolute;
+    color: #000;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+   }
 }
 
 section{
@@ -39,6 +64,7 @@ section nav .logo img{
     width: 90px;
     cursor: pointer;
     margin: 7px 0;
+    object-fit: contain;
 }
 
 section nav .nav__list__wrapper{
