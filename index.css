@@ -12,7 +12,7 @@ html{
 }
 
 section{
-    width: 100%;
+    width: 90%;
     height: 100vh;
 }
 
@@ -26,6 +26,50 @@ section nav{
     left: 0;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
+    z-index: 9000;
 }
+
+section nav .logo img{
+    width: 90px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+section nav .nav__list__wrapper{
+    list-style: none;
+}
+
+section nav .nav__list__wrapper li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+section nav .nav__list__wrapper li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s linear;
+}
+
+section nav .nav__list__wrapper li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: red;
+    display: block;
+    transition: 0.2s linear;
+}
+
+section nav .nav__list__wrapper li a:hover::after{
+    width: 100%;
+}
+
+section nav .nav__list__wrapper li a:hover{
+    color: red;
+}
+
+
+
+
 
