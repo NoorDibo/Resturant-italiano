@@ -16,15 +16,31 @@ html{
 .overlay{
     display: none;
 }
-
-@media only screen and (max-width: 768px){
-    section nav{
-        position: relative;
-    }
-    .icone{
-        display: none;
+@media only screen and (max-width: 767px){
+    section nav {
+		position: relative;
+		/* overflow-x: scroll; */
+	}
+	.icone {
+		display: block;
+	}
+	.icone svg,
+	.nav__close svg {
+		pointer-events: none;
+		height: 30px;
+		width: 30px;
+	}
+	.nav__close {
+		display: block;
+		position: absolute;
+		color: var(--black-1);
+		right: 1rem;
+		top: 1rem;
+		cursor: pointer;
+    
     }
 }
+
 
 section{
     width: 90%;
@@ -41,14 +57,14 @@ section nav{
     left: 0;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 9000;
+    z-index: 1000;
 }
 
 section nav .logo img{
-    width: 100px;
+    width: 85px;
     cursor: pointer;
-    margin: 7px 0;
-    object-fit: contain;
+    margin: 6px 0;
+    
 }
 
 section nav .nav__list__wrapper{
@@ -64,7 +80,7 @@ section nav .nav__list__wrapper li a{
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 17px;
     transition: 0.1s linear;
 }
 
@@ -84,7 +100,6 @@ section nav .nav__list__wrapper li a:hover::after{
 section nav .nav__list__wrapper li a:hover{
     color: red;
 }
-
 
 
 
