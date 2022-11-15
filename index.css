@@ -21,50 +21,9 @@ html{
     section nav{
         position: relative;
     }
-    
-
     .icone{
-        display: block;
-
+        display: none;
     }
-   .icone svg,
-   .nav__close svg {
-    pointer-events: none;
-    height: 30px;
-    width: 30px;
-   }
-   .nav__close {
-    display: block;
-    position: absolute;
-    color: #000;
-    right: 1rem;
-    top: 1rem;
-    cursor: pointer;
-   }
-   .nav__list__wrapper {
-    z-index: 1000;
-    position: absolute;
-    left: 100%;
-    top: 0;
-    height: 100vh;
-    width: 80%;
-    background: var(--lightGreen-1);
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 2rem;
-    transform: translate(0%);
-    overflow: hidden;
-    transition: 0.3s ease-in transform;
-}
-.nav__list__wrapper.show {
-    transform: translate(-100%);
-}
-nav__list__wrapper{
-    display: block;
-    text-align: right;
-    margin-bottom: 2rem;
-}
 }
 
 section{
@@ -86,7 +45,7 @@ section nav{
 }
 
 section nav .logo img{
-    width: 90px;
+    width: 100px;
     cursor: pointer;
     margin: 7px 0;
     object-fit: contain;
@@ -105,7 +64,7 @@ section nav .nav__list__wrapper li a{
     text-decoration: none;
     color: #000;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 30px;
     transition: 0.1s linear;
 }
 
