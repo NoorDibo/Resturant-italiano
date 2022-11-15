@@ -1,63 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
 
-*{
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins";
-}
-
-html{
-    scroll-behavior: smooth;
-}
+    font-family: "poppins";
+  }
 
 
-.icone,
-.nav__close,
-.overlay{
-    display: none;
-}
-@media only screen and (max-width: 767px){
-    section nav {
-		position: relative;
-		/* overflow-x: scroll; */
-    }}
 
-section{
-    width: 90%;
-    height: 100vh;
-}
-
-
-section nav{
+header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: fixed;
     right: 0;
     left: 0;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: green;
+    
     z-index: 1000;
 }
 
-section nav .logo img{
-    width: 85px;
+#logo img{
+    width: 75px;
     cursor: pointer;
     margin: 7px 0;
+
     
 }
 
-section nav .nav__list__wrapper{
+ul{
     list-style: none;
 }
 
-section nav .nav__list__wrapper li{
+ul li{
     display: inline-block;
     margin: 0 25px;
 }
 
-section nav .nav__list__wrapper li a{
+ul li a{
     text-decoration: none;
     color: #000;
     font-weight: 500;
@@ -65,7 +46,7 @@ section nav .nav__list__wrapper li a{
     transition: 0.1s linear;
 }
 
-section nav .nav__list__wrapper li a::after{
+ul li a::after{
     content: "";
     width: 0;
     height: 2px;
@@ -74,15 +55,68 @@ section nav .nav__list__wrapper li a::after{
     transition: 0.2s linear;
 }
 
-section nav .nav__list__wrapper li a:hover::after{
+ul li a:hover::after{
     width: 100%;
 }
 
-section nav .nav__list__wrapper li a:hover{
+ul li a:hover{
     color: red;
 }
 
-
-
-
-
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  #hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .open .bar2 {
+    opacity: 0;
+  }
+  
+  .open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+  }
+  
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+  }
+  
+  .mobile-menu li {
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    header nav {
+      display: none;
+    }
+  
+    #hamburger-icon {
+      display: block;
+    }
+  }
