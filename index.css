@@ -110,7 +110,26 @@ ul li a:hover{
     transform: rotate(45deg) translate(-6px, -8px);
   }
   
-  
+  /*Home_page*/
+  section{
+    padding: 2rem 9%;
+  }
+
+  .home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../Resturant-italiano/img/homepage.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+  }
+
+
+ 
+ 
   /*media queries*/
   
 
