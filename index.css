@@ -16,7 +16,7 @@ header{
     position: fixed;
     right: 0;
     left: 0;
-    background: green;
+    background: rgb(255, 255, 255);
     
     z-index: 1000;
 }
@@ -64,7 +64,7 @@ ul li a:hover{
 }
 
 #hamburger-icon {
-    margin: auto 0;
+    margin: 30px;
     display: none;
     cursor: pointer;
   }
