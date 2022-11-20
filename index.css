@@ -43,23 +43,26 @@ header{
   overflow: hidden;
   }
 
-  .text{
-  
-  color: green;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  position: relative;
-  user-select: none;
-}
-#pointer{
-  color: #192a56;
-  font-size: 20px;
-}
+  .logo {
+    position: relative;
+  }
+  .logo span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(10, 0, 0);
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
 
 
-  
+/*navbar*/  
 
 ul{
     list-style: none;
@@ -159,22 +162,55 @@ ul li a:hover{
     background-position: center center;  
   }
 
-  /*icone img*/
+  /*icone img homepage*/
 
   .image img{
     transition: top ease 0.5s;
     width: 460px;
     position: relative;
-    left: 150px;
-    margin-top: -250px;
+    left: 135px;
+    margin-top: -260px;
+    animation: float 2s linear infinite;
   }
   .image img:hover{
     top: -50px;
   }
+  @keyframes float{
+    0%, 100%{
+      transform: translateY(0rem);
+    }
+    50%{
+      transform: translateY(3rem);
+    }
+  }
+
+  /*style homepage*/
+  .home .content h3{
+    font-size: 3.8rem;
+    color: #27ae60;
+}
+
+.home .content h3 span{
+  color: red;
+}
+  .home .content h1{
+
+  }
+
+  .home .content h1 span{
+
+  }
+
+  .home .content p{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+  }
    
   /*button*/
   
-
+  .main_btn .button{
+    color: darkred;
+  }
   
 
 
