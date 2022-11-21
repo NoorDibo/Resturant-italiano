@@ -213,13 +213,40 @@ ul li a:hover{
     
   }
 
+  .change_text:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "Italian Pizza";
+    }
+    20% {
+      content: "Italian Pasta";
+    }
+    35% {
+      content: "Mexican Pizza";
+    }
+    60% {
+      content: "Italian Food";
+    }
+    80% {
+      content: "delhi";
+    }
+    100% {
+      content: "Mumbai";
+    }
+  }
+
 
    
   /*button*/
   
   .main_btn .button{
     color: darkred;
-    
+
   }
   
 
