@@ -8,37 +8,39 @@
     <link rel="stylesheet" type="text/css" href="meny.css">
 </head>
 <body>
-<div id="hero">
-    <div id="hero_content">
-       <h1>Menu Resturant</h1> 
-        <h2>Look at this</h2>
-        <a href="">Menu</a>
-    </div>
-</div>
-<div id="header">
-    <nav id="navbar">
-        <h1>Menu Restaunt</h1>
-        <ul>
-            <li><a href="./Index.html" class="nav__link">Home</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Chef</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        <div id="phone">
-            <a href="tel:+4792547398">+4792547398</a>
-        </div>
-    </nav>
-    <div id="mobile_menu">
-    <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Chef</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-    </ul>
-</div>
-</div>
+    <header>
+        <div class="logo">
+            <span style="--i:1">I</span>
+            <span style="--i:2">T</span>
+            <span style="--i:3">A</span>
+            <span style="--i:4">L</span>
+            <span style="--i:5">I</span>
+            <span style="--i:6">A</span>
+            <span style="--i:7">N</span>
+            <span style="--i:8">O</span>
+            <span style="--i:9">.</span>
+           </div>
+            <nav>
+                <ul class="navbar">
+                        <li><a href="./Index.html" >Home</a></li>
+                        <li><a href="./about.html" >About</a></li>
+                        <li><a href="./meny.html" >Menu</a></li>
+                        <li><a href="./booking.html" >Booking</a></li>
+                </ul>
+            </nav>
+            <div id="menu-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="./Index.html" >Home</a></li>
+                        <li><a href="./about.html" >About</a></li>
+                        <li><a href="./meny.html" >Menu</a></li>
+                        <li><a href="./booking.html" >Booking</a></li>
+                    </ul>
+              </div>
+            </header>
+
 <div id="menu">
     <h1 id="section">Menu</h1>
     <div id="menu_row">
