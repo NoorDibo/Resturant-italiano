@@ -185,15 +185,20 @@ ul li a:hover{
   }
 
   /*style homepage*/
-  .home .content h3{
+  .content {
+    position: relative;
+  }
+  .content h3{
     font-size: 3.8rem;
     color: #27ae60;
 }
 
-.home .content h3 span{
+.content h3 span{
   color: red;
 }
-  .home .content h1{
+
+
+ .content h1{
 
   }
 
@@ -204,6 +209,7 @@ ul li a:hover{
   .home .content p{
     padding: 1rem 0;
     font-size: 1.7rem;
+    text-align: start;
     
   }
 
@@ -213,6 +219,7 @@ ul li a:hover{
   
   .main_btn .button{
     color: darkred;
+    
   }
   
 
