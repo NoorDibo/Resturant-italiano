@@ -146,7 +146,11 @@ ul li a:hover{
     background-position: center;
     justify-content: space-around;
     position: relative;
-    top: 130px;
+    gap: 1.5rem;
+  }
+  .home .content{
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
   }
 
 
@@ -164,18 +168,25 @@ ul li a:hover{
 
   /*icone img homepage*/
 
-  .image img{
+  .home .image{
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
+  }
+
+ .home .image img {
     transition: top ease 0.5s;
-    width: 460px;
-    position: relative;
-    left: 135px;
-    margin-top: -260px;
+    width: 100%;
     animation: float 2s linear infinite;
-  }
+    padding: 1rem;
+    left: -200px;}
+    
   .image img:hover{
-    top: -50px;
-  }
-  @keyframes float{
+      top: -50px;
+    }
+  
+ 
+ 
+    @keyframes float{
     0%, 100%{
       transform: translateY(0rem);
     }
@@ -332,5 +343,28 @@ ul li a:hover{
     .main_btn{
       font-size: 1em;
     }
+   
+    .home .content h3{
+      font-size: 4.5rem;
+  }
   }  
-  
+
+  @media screen and (max-width : 768px){
+    #mobile_menu {
+        display: block;
+    }
+    #navbar ul{
+        display: none;
+    }
+    html{
+        font-size: 95%;
+    }
+    .image img{
+      width: 50px;
+    }
+}
+@media screen and (max-width : 360px){
+    html{
+        font-size: 70%;
+    }
+  }

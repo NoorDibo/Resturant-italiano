@@ -69,9 +69,6 @@ background: rgb(0, 0, 0, 0.5);
     #mobile_menu {
         display: block;
     }
-    #navbar ul{
-        display: none;
-    }
     html{
         font-size: 95%;
     }
