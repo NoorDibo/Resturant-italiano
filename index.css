@@ -18,7 +18,7 @@
   html{
     font-size: 62.5%;
     scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
+    scroll-padding-top: 5.5rem;
     overflow-x: hidden;
   }
 
@@ -135,9 +135,9 @@ ul li a:hover{
   
   /*Home_page*/
   section{
-    padding: 2rem 11%;
+    padding: 1rem 9%;
   }
-
+ 
   .home{
     display: flex;
     align-items: center;
@@ -149,7 +149,7 @@ ul li a:hover{
     gap: 1.5rem;
   }
   .home .content{
-    flex: 1 1 40rem;
+    flex: 0 1 40rem;
     padding-top: 6.5rem;
   }
 
@@ -169,7 +169,7 @@ ul li a:hover{
   /*icone img homepage*/
 
   .home .image{
-    flex: 1 1 40rem;
+    flex: 0 1 40rem;
     padding-top: 6.5rem;
   }
 
@@ -177,12 +177,11 @@ ul li a:hover{
     transition: top ease 0.5s;
     width: 100%;
     animation: float 2s linear infinite;
-    padding: 1rem;
-    left: -200px;}
-    
-  .image img:hover{
-      top: -50px;
+    position: relative;
     }
+    
+    .image img:hover{
+      top: -50px;}
   
  
  
@@ -196,35 +195,39 @@ ul li a:hover{
   }
 
   /*style homepage*/
-  .content {
-    position: relative;
-  }
-  .content h3{
-    font-size: 3.8rem;
+ 
+ .home .content h3{
+    font-size: 5rem;
     color: #27ae60;
-    font-weight: 200;
-    top: 300px;
+    
+    width: 100%;
     text-shadow: 1px 1px 2px black;
 }
 
 .content h3 span{
   color: red;
+  font-size: 2.2rem;
 }
-
+.home .content{
+  flex: 0 1 40rem;
+  padding-top: 6.5rem;}
 
  .content h1{
   font-family: 'Courier New', Courier, monospace;
-
+  width: 100%;
   }
 
   .home .content h1 span{
 
   }
 
-  .home .content p{
+ .home .content p{
     padding: 1rem 0;
-    font-size: 1.7rem;
-    text-align: start;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    width: 100%;
+   
+    
     
   }
 
@@ -257,42 +260,9 @@ ul li a:hover{
 
 
   /*button*/
-  .main_btn {
-    font-size: 16px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    outline: 0;
-    border: 1px solid black;
-    cursor: pointer;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
   
-  .main_btn:after {
-    content: "";
-    background-color: #ffe54c;
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    top: 7px;
-    left: 7px;
-    transition: 0.2s;
-  }
   
-  .main_btn:hover:after {
-    top: 0px;
-    left: 0px;
-  }
   
-  @media (min-width: 768px) {
-    .main_btn {
-      padding: 13px 50px 13px;
-    }
-  }
    
   
  
@@ -340,31 +310,53 @@ ul li a:hover{
       
       
     }
-    .main_btn{
-      font-size: 1em;
-    }
    
-    .home .content h3{
-      font-size: 4.5rem;
+   
   }
-  }  
 
   @media screen and (max-width : 768px){
     #mobile_menu {
         display: block;
     }
     #navbar ul{
-        display: none;
-    }
-    html{
-        font-size: 95%;
-    }
-    .image img{
-      width: 50px;
-    }
-}
-@media screen and (max-width : 360px){
-    html{
-        font-size: 70%;
-    }
+        display: none;}
+    
+    
+    
+  
   }
+  @media(max-width:1200px){
+    html{
+      font-size: 40%;
+  }
+  header{
+    padding:1rem 2rem;
+  }
+  section{
+    padding: 2rem;
+  }
+.content{
+    flex-direction: column;
+  }
+
+  .home{
+    flex-direction: column;
+    text-align: center;
+  }
+  .home .content h1{
+   
+    flex-direction: column;
+}
+  
+  
+ }
+ @media(max-width:360px){
+ .html {
+  font-size: 70%;}
+.home{
+    flex-direction: column;
+    position: fixed
+  }
+
+}
+
