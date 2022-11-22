@@ -246,31 +246,42 @@ ul li a:hover{
 
 
   /*button*/
- .main_btn {
-  display: inline-block;
-  width: 200px;
-  height: 50px;
-  margin: 10px;
-  border: none;
-  outline: none;
-  border: 5px;
-  background: #ff0044;
-  color: #fff;
-  font-size: 1.3rem;
-  cursor: pointer;
-  box-shadow: inset 0 0 0 0 #f9e506;
-  transition: ease-out 0.6s;
- }
-
- .main_btn a{
-  position: fixed;
-  color: #fff;
- }
-
-.main_btn:hover{
-  box-shadow: inset 0 0 0 0 #f9e506;
-  color: #000;
- }
+  .main_btn {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .main_btn:after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .main_btn:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .main_btn {
+      padding: 13px 50px 13px;
+    }
+  }
    
   
  
