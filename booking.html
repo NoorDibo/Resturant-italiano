@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking</title>
-    <link rel="Stylesheet" href="booking.css">
-
+    <title>Italiano</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="booking.css">
+    <!-- aos css-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+<body>
 
+
+    
+    <!-- Nav Section-->
 <header>
     <div class="logo">
         <span style="--i:1">I</span>
@@ -42,81 +50,45 @@
           </div>
         </header>
         <script src="index.js"></script>
+        <div class="container">
+            <div class="container-form">
+                <form action="#">
+                    <h2 class="headingh">Reservation Online</h2>
+                    <div class="form-field">
+                        <p>Your Name</p>
+                        <input class="writedown" type="text" placeholder="Your Name">
+                    </div>
+                    <div class="form-field">
+                        <p>Your Email</p>
+                        <input class="writedown" type="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-field">
+                        <p>Date</p>
+                        <input class="writedown" type="date">
+                    </div>
+                    <div class="form-field">
+                        <p>Time</p>
+                        <input class="writedown" type="time">
+                    </div>
+                    <div class="form-field">
+                        <p>How many people?</p>
+                        <select class="writedown" name="select" id="#">
+                            <option value="1">1 person</option>
+                            <option value="2">2 persons</option>
+                            <option value="3">3 persons</option>
+                            <option value="4">4 persons</option>
+                            <option value="5">5 persons</option>
+                            <option value="6">6 persons</option>
+                        </select>
+                    </div>
+                    <button class="btn">Submit</button>
 
 
+                </form>
 
-<body>
-    <br>
-    <br>
-    <br>
-    <section class="Banner">
-        <h1>Reserver bordet ditt her</h1>
-        <div class="Omramming">
-        <div class="Bilde" >
-        </div>
-<br>
-<br>
-<br>
-        <div class="Innhold">
-            <h2>Reservasjon</h2>
-        </div>
-        <br>
-        
-        
-
-        <form>
-            <div class="Rad">
-                <select name="Dager">
-                    <option value="Velg-dag">Velg dag</option>
-                    <option value="Mandag">Mandag</option>
-                    <option value="Tirsdag">Tirsdag</option>
-                    <option value="Onsdag">Onsdag</option>
-                    <option value="Torsdag">Torsdag</option>
-                    <option value="Fredag">Fredag</option>
-                    <option value="Lørdag">Lørdag</option>
-                    <option value="Søndag">Søndag</option>
-                </select>
-
-                    <select name="Velg klokkeslett">
-                    <option value="Velg-klokkeslett">Velg klokkeslett</option>
-                    <option value="14:00">14:00</option>
-                    <option value="14:00">15:00</option>
-                    <option value="14:00">16:00</option>
-                    <option value="14:00">17:00</option>
-                    <option value="14:00">18:00</option>
-                    <option value="14:00">19:00</option>
-                    <option value="14:00">20:00</option>
-                    <option value="14:00">21:00</option>
-                    <option value="14:00">22:00</option>
-                    <option value="14:00">23:00</option>
-                </select>              
             </div>
-            <br>
-           
 
-            <div class="Rad">
-                <input type="text"
-                placeholder ="Navn" >
-                <input type="number"
-                placeholder="Antall gjester">
-                
-            </div>
-            <br>
 
-<div class="Rad">
-    <input type="text"
-    placeholder="Telefon">
-
-    <input type="submit" value="Reserver bord">
-    
-</div>
-
-        </form>
-
-        
-    </section>
-
-  
-
-</body>
+        </div>
+        </body>
 </html>
