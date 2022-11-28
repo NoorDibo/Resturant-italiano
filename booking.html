@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="Stylesheet" href="booking.css">
+
+</head>
+
+<header>
+    <div class="logo">
+        <span style="--i:1">I</span>
+        <span style="--i:2">T</span>
+        <span style="--i:3">A</span>
+        <span style="--i:4">L</span>
+        <span style="--i:5">I</span>
+        <span style="--i:6">A</span>
+        <span style="--i:7">N</span>
+        <span style="--i:8">O</span>
+        <span style="--i:9">.</span>
+       </div>
+        <nav>
+            <ul class="navbar">
+                    <li><a href="./Index.html" >Home</a></li>
+                    <li><a href="./about.html" >About</a></li>
+                    <li><a href="./meny.html" >Menu</a></li>
+                    <li><a href="./booking.html" >Booking</a></li>
+            </ul>
+        </nav>
+        <div id="menu-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="./Index.html" >Home</a></li>
+                    <li><a href="./about.html" >About</a></li>
+                    <li><a href="./meny.html" >Menu</a></li>
+                    <li><a href="./booking.html" >Booking</a></li>
+                </ul>
+          </div>
+        </header>
+        <script src="index.js"></script>
+
+
+
+<body>
+    <br>
+    <br>
+    <br>
+    <section class="Banner">
+        <h1>Reserver bordet ditt her</h1>
+        <div class="Omramming">
+        <div class="Bilde" >
+        </div>
+<br>
+<br>
+<br>
+        <div class="Innhold">
+            <h2>Reservasjon</h2>
+        </div>
+        <br>
+        
+        
+
+        <form>
+            <div class="Rad">
+                <select name="Dager">
+                    <option value="Velg-dag">Velg dag</option>
+                    <option value="Mandag">Mandag</option>
+                    <option value="Tirsdag">Tirsdag</option>
+                    <option value="Onsdag">Onsdag</option>
+                    <option value="Torsdag">Torsdag</option>
+                    <option value="Fredag">Fredag</option>
+                    <option value="Lørdag">Lørdag</option>
+                    <option value="Søndag">Søndag</option>
+                </select>
+
+                    <select name="Velg klokkeslett">
+                    <option value="Velg-klokkeslett">Velg klokkeslett</option>
+                    <option value="14:00">14:00</option>
+                    <option value="14:00">15:00</option>
+                    <option value="14:00">16:00</option>
+                    <option value="14:00">17:00</option>
+                    <option value="14:00">18:00</option>
+                    <option value="14:00">19:00</option>
+                    <option value="14:00">20:00</option>
+                    <option value="14:00">21:00</option>
+                    <option value="14:00">22:00</option>
+                    <option value="14:00">23:00</option>
+                </select>              
+            </div>
+            <br>
+           
+
+            <div class="Rad">
+                <input type="text"
+                placeholder ="Navn" >
+                <input type="number"
+                placeholder="Antall gjester">
+                
+            </div>
+            <br>
+
+<div class="Rad">
+    <input type="text"
+    placeholder="Telefon">
+
+    <input type="submit" value="Reserver bord">
+    
+</div>
+
+        </form>
+
+        
+    </section>
+
+  
+
+</body>
+</html>

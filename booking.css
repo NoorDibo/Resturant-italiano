@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+
+:root{
+  --green:#27ae60;
+  --black:#192a56;
+  --light-color:#666;
+  --glow-color: hsl(186 100% 69%);
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    outline: none; border: none;
+  }
+
+  html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+  }
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0; top: 0;
+    left: 0;
+    background: rgb(253, 253, 253);
+    padding: 0.9rem 9%;
+    z-index: 1000;
+    box-shadow: 0.1rem 0.5rem  rgba(0, 0 ,0,.1);
+}
+
+/*logo sittings*/
+
+.logo {
+  position: relative;
+  overflow: hidden;
+  }
+
+  .logo {
+    position: relative;
+  }
+  .logo span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(10, 0, 0);
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+    
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+
+/*navbar*/  
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16.5px;
+    transition: 0.1s linear;
+    padding: 0 1,5rem;
+}
+
+ul li a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: red;
+    display: block;
+    transition: 0.2s linear;
+}
+
+ul li a:hover::after{
+    width: 100%;
+}
+
+ul li a:hover{
+    color: green;
+}
+
+#menu-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+    border: .1rem solid rgb(0, 0 ,0,.3);
+    font-size: 3rem;
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;  
+  }
+  
+  #menu-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+ 
+  
+  .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .open .bar2 {
+    opacity: 0;
+  }
+  
+  .open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+  }
+  
+  /*Home_page*/
+  section{
+    padding: 2rem 11%;
+  }
+
+  .home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+  }
+
+
+  /*homepage pictere*/
+  body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center center;  
+  }
+
+  body{
+    background-image: url(https://media.istockphoto.com/id/468441873/photo/italian-restaurant.jpg?s=612x612&w=0&k=20&c=yFOnfl0p5shN7nx2FR5ElssYEVXyWcuc77_0CvjAlwg=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+  }
+
+h1{
+  font-size: xx-large;
+}
+h2{
+  font-size: x-large;
+  color: white;
+}
