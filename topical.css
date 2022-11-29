@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  
   .main1 {
     float: left;
     width: 60%;
@@ -17,6 +16,7 @@
     margin-top: 7px;
     text-align: center;
     padding-top: 200px;
+
   }
   .htwo{
     font-size: 28px;
@@ -27,4 +27,20 @@
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 10px;
+    
+}
+h3{
+font-size: large;
+padding-top: 10px;
+}
+p {
+    font-size: large;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+a:link{
+    text-decoration:none;  
+}
+a:hover{
+    color:green
 }
