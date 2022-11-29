@@ -15,18 +15,19 @@
     padding: 15px;
     margin-top: 7px;
     text-align: center;
-    padding-top: 200px;
-
+    padding-top: 15%;
+    background-image: url(img/tlotopicaldwa.jpg);  
+    color: white
   }
   .htwo{
     font-size: 28px;
-    padding-left: 10px;
+    padding-left: 50px;
   }
 .texts {
     font-size: 18px;
     padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
+    padding-bottom: 45px;
+    padding-left: 50px;
     
 }
 h3{
@@ -43,4 +44,12 @@ a:link{
 }
 a:hover{
     color:green
+}
+#footer{
+    clear: both;
+    background-color: #81b6da;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
 }
