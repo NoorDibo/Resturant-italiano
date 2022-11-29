@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .main1 {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    padding-top: 100px;
+  }
+  
+  .right1 {
+    background-color: #e5e5e5;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .htwo{
+    font-size: 28px;
+  }
+.texts {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
