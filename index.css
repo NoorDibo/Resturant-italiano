@@ -194,7 +194,7 @@ ul li a:hover{
   /*style homepage*/
  
  .home .content h3{
-    font-size: 5rem;
+    font-size: 28px;
     color: #27ae60; 
     width: 100%;
     text-shadow: 1px 1px 2px black;
@@ -202,7 +202,7 @@ ul li a:hover{
 
 .content h3 span{
   color: red;
-  font-size: 2.2rem;
+  font-size: 28px;
 }
 .home .content{
   flex: 0 1 40rem;
@@ -228,22 +228,22 @@ ul li a:hover{
   
   @keyframes changetext {
     0% {
-      content: "Italian Pizza";
+      content: "Biscutis";
     }
     20% {
-      content: "Italian Pasta";
+      content: "Crepes";
     }
     35% {
-      content: "Mexican Pizza";
+      content: "Pizza Capricciosa";
     }
     60% {
-      content: "Italian Food";
+      content: "Pizza Porchetta";
     }
     80% {
-      content: "delhi";
+      content: "Pasta Bolognese";
     }
     100% {
-      content: "Mumbai";
+      content: "Pasta Carbonara";
     }
   }
 
