@@ -14,7 +14,7 @@ body{
 #navbar {
     display: flex;
     justify-content: space-around;
-background: rgb(0, 0, 0, 0.5);
+    background: rgb(0, 0, 0, 0.5);
 }
 #navbar h1{
     color: orange;
@@ -79,10 +79,11 @@ background: rgb(0, 0, 0, 0.5);
 
 }
 #menu{
-    padding: 25px 0 25px 0;
-    text-align: center;
     font-size: 2rem;
     font-family: verdana;
+}
+#section{
+    text-align: center;
 }
 #menu_row{
     display: flex;
