@@ -179,7 +179,7 @@ ul li a:hover{
 
   .home .image{
     flex: 0 1 40rem;
-    padding-top: 6.5rem;
+    padding-top: ;
   }
 
  .home .image img {
@@ -363,7 +363,14 @@ ul li a:hover{
   }
 .content{
     flex-direction: column;
-    padding-block: 130px 60px
+  }
+
+  .home .content{
+    padding-block: 110px 30px
+  }
+
+  div.image{
+    padding-block: -500px;
   }
 
   .home{
