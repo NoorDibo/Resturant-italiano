@@ -221,6 +221,7 @@ ul li a:hover{
   flex: 0 1 40rem;
   padding-top: 6.5rem;}
 
+
  .content h1{
   font-family: ;
   width: 100%;
@@ -362,6 +363,7 @@ ul li a:hover{
   }
 .content{
     flex-direction: column;
+    padding-block: 130px 60px
   }
 
   .home{
