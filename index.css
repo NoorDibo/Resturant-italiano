@@ -163,7 +163,15 @@ ul li a:hover{
     padding: 0;
     box-sizing: border-box;
     background-size: cover;
-    background-position: center center;  
+    background-position: center center; 
+    
+  }
+
+  body{
+    background-image: url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   /*icone img homepage*/
