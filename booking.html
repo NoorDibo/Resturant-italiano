@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
-    <link rel="Stylesheet" href="booking.css">
-
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-
-<header>
-    <div class="logo">
-        <span style="--i:1">I</span>
-        <span style="--i:2">T</span>
-        <span style="--i:3">A</span>
-        <span style="--i:4">L</span>
-        <span style="--i:5">I</span>
-        <span style="--i:6">A</span>
-        <span style="--i:7">N</span>
-        <span style="--i:8">O</span>
-        <span style="--i:9">.</span>
+<body>
+    <header>
+        <div class="logo">
+            <span style="--i:1">I</span>
+            <span style="--i:2">T</span>
+            <span style="--i:3">A</span>
+            <span style="--i:4">L</span>
+            <span style="--i:5">I</span>
+            <span style="--i:6">A</span>
+            <span style="--i:7">N</span>
+            <span style="--i:8">O</span>
+            <span style="--i:9">.</span>
        </div>
         <nav>
             <ul class="navbar">
@@ -27,96 +30,70 @@
                     <li><a href="./about.html" >About</a></li>
                     <li><a href="./meny.html" >Menu</a></li>
                     <li><a href="./booking.html" >Booking</a></li>
+                    <li><a href="./access.html" >Accessibility page</a></li>
+                    <li><a href="./topical.html" >Topical page</a></li>
             </ul>
         </nav>
-        <div id="menu-icon" onclick="toggleMobileMenu(this)">
+            <div id="menu-icon" onclick="toggleMobileMenu(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
-            <ul class="mobile-menu">
-                <li><a href="./Index.html" >Home</a></li>
+                <ul class="mobile-menu">
+                    <li><a href="./Index.html" >Home</a></li>
                     <li><a href="./about.html" >About</a></li>
                     <li><a href="./meny.html" >Menu</a></li>
                     <li><a href="./booking.html" >Booking</a></li>
+                    <li><a href="./access.html" >Accessibility page</a></li>
+                    <li><a href="./topical.html" >Topical page</a></li>
                 </ul>
           </div>
-        </header>
-        <script src="index.js"></script>
-
-
-
-<body>
-    <br>
-    <br>
-    <br>
-    <section class="Banner">
-        <h1>Reserver bordet ditt her</h1>
-        <div class="Omramming">
-        <div class="Bilde" >
-        </div>
-<br>
-<br>
-<br>
-        <div class="Innhold">
-            <h2>Reservasjon</h2>
-        </div>
-        <br>
-        
-        
-
-        <form>
-            <div class="Rad">
-                <select name="Dager">
-                    <option value="Velg-dag">Velg dag</option>
-                    <option value="Mandag">Mandag</option>
-                    <option value="Tirsdag">Tirsdag</option>
-                    <option value="Onsdag">Onsdag</option>
-                    <option value="Torsdag">Torsdag</option>
-                    <option value="Fredag">Fredag</option>
-                    <option value="Lørdag">Lørdag</option>
-                    <option value="Søndag">Søndag</option>
-                </select>
-
-                    <select name="Velg klokkeslett">
-                    <option value="Velg-klokkeslett">Velg klokkeslett</option>
-                    <option value="14:00">14:00</option>
-                    <option value="14:00">15:00</option>
-                    <option value="14:00">16:00</option>
-                    <option value="14:00">17:00</option>
-                    <option value="14:00">18:00</option>
-                    <option value="14:00">19:00</option>
-                    <option value="14:00">20:00</option>
-                    <option value="14:00">21:00</option>
-                    <option value="14:00">22:00</option>
-                    <option value="14:00">23:00</option>
-                </select>              
+    </header>
+    <script src="index.js"></script>
+        <div class="container">
+            <div class="container-form">
+                <form action="#">
+                    <h2 class="headingh">Reservation Online</h2>
+                    <div class="form-field">
+                        <p>Your Name</p>
+                        <input class="writedown" type="text">
+                    </div>
+                    <div class="form-field">
+                        <p>Your Email</p>
+                        <input class="writedown" type="email">
+                    </div>
+                    <div class="form-field">
+                        <p>Date</p>
+                        <input class="writedown" type="date">
+                    </div>
+                    <div class="form-field">
+                        <p>Time</p>
+                        <input class="writedown" type="time">
+                    </div>
+                    <div class="form-field">
+                        <p>How many people?</p>
+                        <select class="writedown" name="select" id="#">
+                            <option value="1">1 person</option>
+                            <option value="2">2 persons</option>
+                            <option value="3">3 persons</option>
+                            <option value="4">4 persons</option>
+                            <option value="5">5 persons</option>
+                            <option value="6">6 persons</option>
+                        </select>
+                    </div>
+                    <button class="btn">Submit</button>
+                </form>
             </div>
-            <br>
-           
-
-            <div class="Rad">
-                <input type="text"
-                placeholder ="Navn" >
-                <input type="number"
-                placeholder="Antall gjester">
-                
+        </div>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading footer1">
+                    <h2>Finn oss:</h2>
+                        <a href="https://www.google.com/maps/place/Josefines+gate+23,+0351+Oslo/data=!4m2!3m1!1s0x46416dd7cc2998ff:0x555bd23bb797b3e?sa=X&ved=2ahUKEwjDy62X-sP7AhXfS_EDHZzaCzoQ8gF6BAgTEAE" title="Random place">Osloveien 51</a>
+                        <a href="https://www.instagram.com/italiano.se/?hl=en" class="fa fa-instagram" title="Random instagram"></a>
+                        <a href="https://www.facebook.com/" class="fa fa-facebook" title="Just a Facebook"></a>
+                        <p>tlf: +47 552 32 895</p>
+                </div>
             </div>
-            <br>
-
-<div class="Rad">
-    <input type="text"
-    placeholder="Telefon">
-
-    <input type="submit" value="Reserver bord">
-    
-</div>
-
-        </form>
-
-        
-    </section>
-
-  
-
+        </div>
 </body>
 </html>

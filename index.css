@@ -7,6 +7,7 @@
   --glow-color: hsl(186 100% 69%);
 
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -21,7 +22,6 @@
     scroll-padding-top: 5.5rem;
     overflow-x: hidden;
   }
-
 
 header{
     display: flex;
@@ -46,6 +46,7 @@ header{
   .logo {
     position: relative;
   }
+
   .logo span {
     position: relative;
     display: inline-block;
@@ -54,14 +55,13 @@ header{
     text-transform: uppercase;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
-    
   }
+
   @keyframes flip {
     0%,80% {
       transform: rotateY(360deg) 
     }
   }
-
 
 /*navbar*/  
 
@@ -118,7 +118,6 @@ ul li a:hover{
     transition: 0.4s;
   }
  
-  
   .open .bar1 {
     -webkit-transform: rotate(-45deg) translate(-6px, 6px);
     transform: rotate(-45deg) translate(-6px, 6px);
@@ -134,6 +133,7 @@ ul li a:hover{
   }
   
   /*Home_page*/
+
   section{
     padding: 1rem 9%;
   }
@@ -153,10 +153,9 @@ ul li a:hover{
     padding-top: 6.5rem;
   }
 
-
   /*homepage pictere*/
-  body{
-    
+
+  body{   
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -181,10 +180,8 @@ ul li a:hover{
     }
     
     .image img:hover{
-      top: -50px;}
-  
- 
- 
+      top: -50px;
+    }
     @keyframes float{
     0%, 100%{
       transform: translateY(0rem);
@@ -197,16 +194,15 @@ ul li a:hover{
   /*style homepage*/
  
  .home .content h3{
-    font-size: 5rem;
-    color: #27ae60;
-    
+    font-size: 28px;
+    color: #27ae60; 
     width: 100%;
     text-shadow: 1px 1px 2px black;
 }
 
 .content h3 span{
   color: red;
-  font-size: 2.2rem;
+  font-size: 28px;
 }
 .home .content{
   flex: 0 1 40rem;
@@ -217,18 +213,11 @@ ul li a:hover{
   width: 100%;
   }
 
-  .home .content h1 span{
-
-  }
-
  .home .content p{
     padding: 1rem 0;
     font-size: 1.8rem;
     line-height: 1.5;
-    width: 100%;
-   
-    
-    
+    width: 100%; 
   }
 
   .change_text:after {
@@ -239,37 +228,26 @@ ul li a:hover{
   
   @keyframes changetext {
     0% {
-      content: "Italian Pizza";
+      content: "Biscutis";
     }
     20% {
-      content: "Italian Pasta";
+      content: "Crepes";
     }
     35% {
-      content: "Mexican Pizza";
+      content: "Pizza Capricciosa";
     }
     60% {
-      content: "Italian Food";
+      content: "Pizza Porchetta";
     }
     80% {
-      content: "delhi";
+      content: "Pasta Bolognese";
     }
     100% {
-      content: "Mumbai";
+      content: "Pasta Carbonara";
     }
   }
 
-
-  /*button*/
-  
-  
-  
-   
-  
- 
- 
   /*media queries*/
-  
-
   
   @media only screen and (max-width: 767px) {
     header nav {
@@ -310,8 +288,6 @@ ul li a:hover{
       
       
     }
-   
-   
   }
 
   @media screen and (max-width : 768px){
@@ -320,21 +296,21 @@ ul li a:hover{
     }
     #navbar ul{
         display: none;}
-    
-    
-    
-  
   }
+
   @media(max-width:1200px){
     html{
       font-size: 40%;
   }
+
   header{
     padding:1rem 2rem;
   }
+
   section{
     padding: 2rem;
   }
+
 .content{
     flex-direction: column;
   }
@@ -343,13 +319,13 @@ ul li a:hover{
     flex-direction: column;
     text-align: center;
   }
+
   .home .content h1{
    
     flex-direction: column;
+  }
 }
-  
-  
- }
+
  @media(max-width:360px){
  .html {
   font-size: 70%;}
@@ -357,64 +333,38 @@ ul li a:hover{
     flex-direction: column;
     position: fixed
   }
-
 }
-
-
 
 .footer-container{
   padding: 4rem 0 4rem 0;
   background-color: #27ae60;
- 
 }
+
 .footer{
-  
-  width: 80%;
+  width: 90%;
   height: auto;
   background-color: #27ae60;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
   margin: 0 auto;
+  font-size: 18px;
 }
+
 .footer-heading{
   display: flex;
   flex-direction: column;
   margin-right: 4rem;
 }
+
 .footer-heading a{
   color: white;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
+
 .footer-heading a:hover{
   color: rgba(120, 25, 25, 0.502);
   transition: 0.3s ease-in;
   transition: 0.3s ease-out;
 }
- .footer-epost {
-  margin-bottom: 2rem ;
- }
- #footer-epost{
-  width: 250px;
-  height: 40px;
-  border-radius: 4px;
-  outline: none;
-  border: none;
-  padding-left: 10px;
-  font-size: 20px;
-  margin-bottom: 10px;
- }
- #footer-epostknapp{
-  width: 100px ;
-  height: 40px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  outline: none;
-  border: none;
- }
- #footer-epostknapp:hover{
-  cursor:pointer;
-  background-color: rgba(112, 45, 45, 0.466);
-  transition: all 0.3s ease-in-out;    
- }
