@@ -215,15 +215,16 @@ ul li a:hover{
 
 .content h3 span{
   color: red;
-  font-size: 2.2rem;
+  font-size: 5rem;
 }
 .home .content{
   flex: 0 1 40rem;
   padding-top: 6.5rem;}
 
  .content h1{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: ;
   width: 100%;
+  font-size: 2.5rem;
   }
 
   .home .content h1 span{
@@ -243,7 +244,7 @@ ul li a:hover{
   .change_text:after {
     content: "";
     animation: changetext 10s infinite linear;
-    color: #00b894;
+    color: #0fb346;
   }
   
   @keyframes changetext {
