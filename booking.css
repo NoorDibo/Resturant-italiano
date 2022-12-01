@@ -170,9 +170,11 @@ padding-bottom: 20px;
 .banner h1{
   padding-bottom: 10px;
   margin-bottom: 5px;
-color: whitesmoke; 
+  font-size: 45px;
+color: white; 
 font-weight: 700;
 text-shadow: 1px 1px 2px black;
+
 }
 
 .innhold h2{
@@ -208,8 +210,8 @@ text-shadow: 1px 1px 2px black;
   color: white;
   padding: 25px 0 
   10px 0;
-  font-size: larger
-
+font-size: 13px;
+text-shadow: 1px 1px 1px black;
 }
 
 .rad{
@@ -237,18 +239,21 @@ form input[type =
  text], form input[type = number],
   form 
   input::placeholder,select{
-  color: rgb(169, 175, 208);
+    color: rgba(203, 11, 11, 0.797);  cursor:pointer
 }
+
 
 form input[type = submit]{
   color: white;
-  background: rgb(89, 210, 121);
+  background: rgb(43, 140, 69);
   border-radius: 4px;
   cursor:pointer;
 }
 
 form input[type = "submit"]:hover{
   opacity: 0.9;
+  transition: all 0.5s ease-in-out;
+background-color: rgba(203, 11, 11, 0.797);
 }
 
 
