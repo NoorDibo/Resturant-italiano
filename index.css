@@ -279,13 +279,12 @@ ul li a:hover{
     padding: .9rem 3.5rem;
     cursor: pointer;
     font-size: 1.7rem;
-    list-style: none;
+    text-decoration: none;
   }
   
   .main_btn:hover{
     background-color: #27ae60;
-
-  }
+ }
   
   
    
