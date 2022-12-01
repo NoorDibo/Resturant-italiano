@@ -133,24 +133,8 @@ ul li a:hover{
     transform: rotate(45deg) translate(-6px, -8px);
   }
   
-  /*Home_page*/
-  section{
-    padding: 2rem 11%;
-  }
-
-  .home{
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    justify-content: space-around;
-    position: relative;
-    top: 130px;
-  }
 
 
-  /*homepage pictere*/
   body{
     
     background-repeat: no-repeat;
@@ -163,16 +147,81 @@ ul li a:hover{
   }
 
   body{
-    background-image: url(https://media.istockphoto.com/id/468441873/photo/italian-restaurant.jpg?s=612x612&w=0&k=20&c=yFOnfl0p5shN7nx2FR5ElssYEVXyWcuc77_0CvjAlwg=);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
+    font-family: "poppins";
   }
+.banner{
+  min-height: 100vh;
+background: url(http://res.cloudinary.com/the-infatuation/image/upload/v1663894648/images/Uva-Interior-Noah_Devereaux_dybg0f.jpg) center/cover no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+padding-bottom: 20px;
+}
+
+.omramming{
+  display: grid;
+  grid-template-columns: 420px;
+}
+.banner h2{
+  padding-bottom: 100px;
+  margin-bottom: 10px;
+}
+
+.innhold h2{
+  font-family: "Poppins";
+  text-align: center;
+  color: white;
+  padding: 25px 0 
+  10px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.rad{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+form select, form input{
+  display: block;
+  width: 100%;
+  margin: 15px 12px;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'poppins';
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+font-weight: 400;
+}
+
+form input[type =
+ text], form input[type = number],
+  form 
+  input::placeholder,select{
+  color: rgb(169, 175, 208);
+}
+
+form input[type = submit]{
+  color: white;
+  background: rgb(89, 210, 121);
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+form input[type = "submit"]:hover{
+  opacity: 0.9;
+}
+
+
 
 h1{
   font-size: xx-large;
 }
-h2{
-  font-size: x-large;
-  color: white;
-}
+
