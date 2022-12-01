@@ -180,13 +180,34 @@ padding-bottom: 20px;
   10px 0;
   font-size: 30px;
   font-weight: 700;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid wheat;
+}
+
+.innhold h3{
+  font-family: "Poppins";
+  text-align: center;
+  color: white;
+  padding: 25px 0 
+  10px 0;
+  font-size: 30px;
+  font-weight: 700;
+  border-bottom: 1px solid wheat;
+}
+
+.innhold p{
+  font-family: "Poppins";
+  text-align: center;
+  color: white;
+  padding: 25px 0 
+  10px 0;
+
 }
 
 .rad{
   display: flex;
   width: 90%;
   margin: 0 auto;
+
 }
 
 form select, form input{
@@ -200,6 +221,7 @@ form select, form input{
   border: none;
   border-bottom: 1px solid white;
 font-weight: 400;
+border-radius: 4px;
 }
 
 form input[type =
