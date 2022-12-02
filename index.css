@@ -302,7 +302,8 @@ ul li a:hover{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1rem;
  }
 
  .about .image{
@@ -317,11 +318,11 @@ ul li a:hover{
   flex: 1 1 41rem;
  }
 
- .about .content .title{
-  font-size: rem;
+.title{
+  font-size: 2rem;
  }
   
- .about .content .p{
+.title .p{
   font-size: 1.2rem;
   padding: 1rem 0;
   line-height: 2;
@@ -332,23 +333,40 @@ ul li a:hover{
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem;
-  width: 60%;
+  width: 599px;
+  padding-top: 25px;
+ 
  }
 
- .about .content .icons-container .icons{
-  flex: 1 1 16rem;
-  text-align: center;
- }
- .about .content .icons-container .icons img{
-  width: 20%;
- }
-  
  .about .content .icons-container .icons .info-title .info-text{
   flex: 1 1 16rem;
   text-align: center;
-  font-size: .9rem;
+  }
 
+.icons img{
+  width: 25%;
  }
+  
+
+ 
+ 
+
+
+
+ .info-title{
+  font-size: 1.8rem;
+  text-align: center;
+  flex: 1 1 16rem;
+ }
+ .info-text{
+  font-size: 1.5rem;
+  text-align: center;
+ }
+
+ .icons{
+  display: flex;
+ }
+
   
  
  
@@ -429,7 +447,7 @@ ul li a:hover{
   }
 
   div.image{
-    padding-block: -500px;
+    padding-block: -5px;
   }
 
   .home{
