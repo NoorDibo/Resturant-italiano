@@ -158,13 +158,12 @@ ul li a:hover{
   }
  
   .home{
-    
+    display: flex;
     align-items: center;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
     justify-content: space-around;
-    
     gap: 1.5rem;
     
   }
@@ -286,11 +285,75 @@ ul li a:hover{
   }
   
   .main_btn:hover{
-    background-color: #27ae60;
+    background-color: #27ae5f8e;
  }
   
+
+ /*about us*/
+ .heading{
+  text-align: center;
+  font-size: 4rem;
+  color: #333;
+  padding: 1rem;
+  margin: 2rem;
+  background: #47df8631;
+ }
+
+ .heading span{
+  color: #0fb346;
+ }
+
+ .about{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+ }
+
+ .about .image{
+  flex: 2 1 42rem;
+ }
+
+ .about .image img{
+  width: 50%;
+ }
+
+ .about .content{
+  flex: 1 1 41rem;
+ }
+
+ .about .content .title{
+  font-size: rem;
+ }
   
-   
+ .about .content .p{
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  line-height: 2;
+ }
+
+ .about .content .icons-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 60%;
+ }
+
+ .about .content .icons-container .icons{
+  flex: 1 1 16rem;
+  text-align: center;
+ }
+ .about .content .icons-container .icons img{
+  width: 20%;
+ }
+  
+ .about .content .icons-container .icons .info-title .info-text{
+  flex: 1 1 16rem;
+  text-align: center;
+  font-size: .9rem;
+
+ }
   
  
  
@@ -393,7 +456,13 @@ ul li a:hover{
     position: fixed
   }
 
+  .heading{
+    font-size: 3rem;
+  }
+
 }
+
+
 
 
 
