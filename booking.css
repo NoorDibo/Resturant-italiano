@@ -136,7 +136,7 @@ ul li a:hover{
 
 
   body{
-    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://res.cloudinary.com/the-infatuation/image/upload/v1663894648/images/Uva-Interior-Noah_Devereaux_dybg0f.jpg) center/cover no-repeat ;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -146,16 +146,10 @@ ul li a:hover{
     background-position: center center;  
   }
 
-  body{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    font-family: "poppins";
-  }
+
 .banner{
   min-height: 100vh;
-background: url(http://res.cloudinary.com/the-infatuation/image/upload/v1663894648/images/Uva-Interior-Noah_Devereaux_dybg0f.jpg) center/cover no-repeat;
-display: flex;
+  display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -194,7 +188,7 @@ text-shadow: 1px 1px 2px black;
 .innhold h3{
   font-family: "Poppins";
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 25px 0 
   10px 0;
   font-size: 30px;
@@ -258,7 +252,106 @@ background-color: rgba(203, 11, 11, 0.797);
 
 
 
-h1{
-  font-size: xx-large;
+
+
+
+@media only screen and (max-width: 767px) {
+  header nav {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+    position:absolute;
+    top:100%; left:0; right:0;
+    background:rgb(214, 180, 180); /*bacgrunn farget til menyen*/
+    border-top: .1rem solid rgba(0, 0, 10, 0.479);
+    
+  }
+  
+  .mobile-menu li {
+    margin-bottom: 10px;
+    margin:1.5rem;
+    padding:1.5rem;
+    background:#fff(209, 183, 183);
+    border:.1rem solid rgba(233, 12, 12, 0.692);
+    
+    
+  }
+ 
+ 
 }
 
+@media screen and (max-width : 768px){
+  #mobile_menu {
+      display: block;
+  }
+  #navbar ul{
+      display: none;}
+  
+  
+  
+
+}
+@media(max-width:1200px){
+  html{
+    font-size: 40%;
+}
+header{
+  padding:1rem 2rem;
+}
+section{
+  padding: 2rem;
+}
+.innhold{
+  flex-direction: column;
+}
+
+.home .content{
+  padding-block: 110px 30px
+}
+
+div.image{
+  padding-block: -500px;
+}
+
+.home{
+  flex-direction: column;
+  text-align: center;
+}
+.home .content h1{
+ 
+  flex-direction: column;
+}
+
+
+}
+@media(max-width:360px){
+.html {
+font-size: 70%;}
+.home{
+  flex-direction: column;
+  position: fixed
+}
+
+.heading{
+  font-size: 3rem;
+}
+
+}
