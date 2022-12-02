@@ -22,7 +22,6 @@
     overflow-x: hidden;
   }
 
-
 header{
     display: flex;
     justify-content: space-between;
@@ -61,7 +60,6 @@ header{
       transform: rotateY(360deg) 
     }
   }
-
 
 /*navbar*/  
 
@@ -172,7 +170,6 @@ ul li a:hover{
     padding-top: 6.5rem;
   }
 
-
   /*homepage pictere*/
 
   /*icone img homepage*/
@@ -221,7 +218,6 @@ ul li a:hover{
   flex: 0 1 40rem;
   padding-top: 6.5rem;}
 
-
  .content h1{
   font-family: ;
   width: 100%;
@@ -268,7 +264,6 @@ ul li a:hover{
       content: "Pasta Carbonara";
     }
   }
-
 
   /*button*/
 
@@ -461,6 +456,7 @@ ul li a:hover{
   }
 
 }
+
 
 
 
