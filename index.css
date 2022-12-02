@@ -395,61 +395,36 @@ ul li a:hover{
 
 }
 
-
-
 .footer-container{
   padding: 4rem 0 4rem 0;
   background-color: #27ae60;
- 
 }
+
 .footer{
-  
-  width: 80%;
+  width: 90%;
   height: auto;
   background-color: #27ae60;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
   margin: 0 auto;
+  font-size: 18px;
 }
+
 .footer-heading{
   display: flex;
   flex-direction: column;
   margin-right: 4rem;
 }
+
 .footer-heading a{
   color: white;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
+
 .footer-heading a:hover{
   color: rgba(120, 25, 25, 0.502);
   transition: 0.3s ease-in;
   transition: 0.3s ease-out;
 }
- .footer-epost {
-  margin-bottom: 2rem ;
- }
- #footer-epost{
-  width: 250px;
-  height: 40px;
-  border-radius: 4px;
-  outline: none;
-  border: none;
-  padding-left: 10px;
-  font-size: 20px;
-  margin-bottom: 10px;
- }
- #footer-epostknapp{
-  width: 100px ;
-  height: 40px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  outline: none;
-  border: none;
- }
- #footer-epostknapp:hover{
-  cursor:pointer;
-  background-color: rgba(112, 45, 45, 0.466);
-  transition: all 0.3s ease-in-out;    
- }
