@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  .main1 {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    padding-top: 100px;
+  }
+  .right1 {
+    background-color: #79dd6b;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    padding-top: 15%;
+    background-image: url(img/tlotopicaldwa.jpg);  
+    color: white
+  }
+  .htwo{
+    font-size: 28px;
+    padding-left: 50px;
+  }
+.texts {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 45px;
+    padding-left: 50px;
+}
+h3{
+font-size: large;
+padding-top: 10px;
+}
+p {
+    font-size: large;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+}
+a:link{
+    text-decoration:none;  
+}
+a:hover{
+    color:green
+}
+#footer{
+    clear: both;
+    background-color: #81b6da;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
