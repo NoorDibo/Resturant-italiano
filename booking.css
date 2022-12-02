@@ -239,15 +239,15 @@ form input[type =
 
 form input[type = submit]{
   color: white;
-  background: rgb(43, 140, 69);
+  background: linear-gradient( rgb(87, 203, 116), rgb(0, 6, 2));
   border-radius: 4px;
   cursor:pointer;
 }
 
 form input[type = "submit"]:hover{
   opacity: 0.9;
-  transition: all 0.5s ease-in-out;
-background-color: rgba(203, 11, 11, 0.797);
+  transition: all 0.9s ease-in-out;
+background: linear-gradient( rgba(141, 10, 10, 0.797), rgb(14, 2, 2));
 }
 
 
