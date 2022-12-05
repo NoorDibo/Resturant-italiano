@@ -318,6 +318,7 @@ ul li a:hover{
 
 .about .content{
   flex:1 1 41rem;
+  
 }
 
 .about .content .title{
@@ -337,6 +338,7 @@ ul li a:hover{
   flex-wrap: wrap;
   gap:2rem;
   margin-top: 3rem;
+  padding-bottom: 25px;
 }
 
 .about .content .icons-container .icons{
