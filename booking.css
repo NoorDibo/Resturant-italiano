@@ -146,6 +146,8 @@ ul li a:hover{
     background-position: center center;  
   }
 
+  
+  /*Structuring and styling content*/
 
 .banner{
   min-height: 100vh;
@@ -217,6 +219,9 @@ padding-right: 300px;
 
 }
 
+
+  /*Styling buttons*/
+
 form select, form input{
   display: block;
   width: 100%;
@@ -255,6 +260,7 @@ background: linear-gradient( rgba(141, 10, 10, 0.797), rgb(14, 2, 2));
 
 
 
+  /*media queries*/
 
 
 @media only screen and (max-width: 775px) {
