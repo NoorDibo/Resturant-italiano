@@ -206,6 +206,8 @@ text-shadow: 1px 1px 2px black;
   5px 0;
 font-size: 13px;
 text-shadow: 1px 1px 1px black;
+padding-left: 200px;
+padding-right: 200px;
 }
 
 .rad{
@@ -255,7 +257,7 @@ background: linear-gradient( rgba(141, 10, 10, 0.797), rgb(14, 2, 2));
 
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 775px) {
   header nav {
     display: none;
   }
@@ -294,45 +296,27 @@ background: linear-gradient( rgba(141, 10, 10, 0.797), rgb(14, 2, 2));
     
     
   }
+  .innhold p{
+  padding-left: 5px;
+padding-right: 5px;}
+
+.banner h1{
+  padding-block: 33px 2px;
+  }
+  
  
  
 }
 
 
 @media only screen and (max-width: 360px){
-.innhold .banner h3 p{
-  font-family: "Poppins";
-  text-align: center;
-  margin-right: 5px;
-  margin-left: 5px;
-  color: white;
-  padding: 15px 0 
-  5px 0;
-font-size: 10px;
-text-shadow: 1px 1px 1px black;
-padding-left: 10px;
-padding-right: 10px;
-}
-
+  
 .html {
   font-size: 70%;}
-.banner{
-    flex-direction: column;
-    text-align: center
-    
-  }
 
-  .heading{
-    font-size: 3rem;
-  }
-  .innhold h3 p{
-   flex-direction: column;
-   text-align: center
- }
- .form{
-   flex-direction: column;
- }
- 
+.banner h1{
+padding-block: 33px 2px;
+}
 }
 
 
@@ -372,23 +356,5 @@ text-align: center;
   
   
 
-
-@media(max-width:1200px){
-  html{
-    font-size: 40%;
-}
-header{
-  padding:1rem 2rem;
-}
-section{
-  padding: 2rem;
-}
-.innhold{
-  flex-direction: column;
-}
-.banner h1{
-  padding-block: 34px;
-}
-}
 
 

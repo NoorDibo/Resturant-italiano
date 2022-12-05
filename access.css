@@ -1,14 +1,14 @@
 #textacc {
     padding-top: 100px;
     font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px
+    padding-left: 10px;
+    padding-right: 10px
     ;
 }
 img {
     padding-left: 10px;
     padding: 20px;
-    padding-right: 10;
+    padding-right: 10px;
 }
 a:link{
     text-decoration:none;  
@@ -19,55 +19,69 @@ a:hover{
 
 
 @media only screen and (max-width: 767px) {
-    header nav {
-      display: none;
-    }
-  
-    #menu-icon {
-      display: block;
-    }
-    .open .mobile-menu {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      
-    }
-    
-    .mobile-menu {
-      display: none;
-      position: absolute;
-      top: 50px;
-      left: 0;
-      height: calc(100vh - 50px);
-      width: 100%;
-      position:absolute;
-      top:100%; left:0; right:0;
-      background:rgb(214, 180, 180); /*bacgrunn farget til menyen*/
-      border-top: .1rem solid rgba(0, 0, 10, 0.479);
-      
-    }
-    
-    .mobile-menu li {
-      margin-bottom: 10px;
-      margin:1.5rem;
-      padding:1.5rem;
-      background:#fff(209, 183, 183);
-      border:.1rem solid rgba(233, 12, 12, 0.692);
-      
-      
-    }
-   
-   
+  header nav {
+    display: none;
   }
 
-  @media screen and (max-width : 768px){
-    #mobile_menu {
-        display: block;
-    }
-    #navbar ul{
-        display: none;}
-        #textacc{
-          padding-right: 20px;
-        }
+  #menu-icon {
+    display: block;
   }
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+    position:absolute;
+    top:100%; left:0; right:0;
+    background:rgb(214, 180, 180); /*bacgrunn farget til menyen*/
+    border-top: .1rem solid rgba(0, 0, 10, 0.479);
+    
+  }
+  
+  .mobile-menu li {
+    margin-bottom: 10px;
+    margin:1.5rem;
+    padding:1.5rem;
+    background:#fff(209, 183, 183);
+    border:.1rem solid rgba(233, 12, 12, 0.692);
+    
+    
+  }
+ 
+ 
+}
+
+@media screen and (max-width : 768px){
+  #mobile_menu {
+      display: block;
+  }
+  #navbar ul{
+      display: none;}
+  #ttextacc{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  }
+
+  @media(max-width:360px){
+    html {
+     font-size: 70%;}}
+
+
+     @media(max-width:1200px){
+      html{
+        font-size: 40%;
+    }
+    
+
+}
