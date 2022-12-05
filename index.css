@@ -145,7 +145,8 @@ ul li a:hover{
 
  
   .home{
-    background-image: url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat ;
+
     background-size: cover;
   }
 
@@ -302,61 +303,53 @@ ul li a:hover{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap:2rem;
-}
+  gap: 2rem;
+ }
 
-.about .image{
-  flex:1 1 41rem;
-}
+ .about .image{
+  flex: 2 1 42rem;
+ }
 
-.about .image img{
-  width: 100%;
-}
+ .about .image img{
+  width: 50%;
+ }
 
+ .about .content{
+  flex: 1 1 41rem;
+ }
 
-
-.about .content{
-  flex:1 1 41rem;
-}
-
-.about .content .title{
-  font-size: 4rem;
-  color:var(--black);
-}
-
-.about .content p{
-  font-size: 1.7rem;
-  color:var(--light-black);
-  padding:1rem 0;
+ .about .content .title{
+  font-size: rem;
+ }
+  
+ .about .content .p{
+  font-size: 1.2rem;
+  padding: 1rem 0;
   line-height: 2;
-}
+ }
 
-.about .content .icons-container{
+ .about .content .icons-container{
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem;
-}
+  width: 60%;
+ }
 
-.about .content .icons-container .icons{
-  flex:1 1 16rem;
+ .about .content .icons-container .icons{
+  flex: 1 1 16rem;
   text-align: center;
-  background: #80c29657;
-
+ }
+ .about .content .icons-container .icons img{
+  width: 20%;
+ }
   
-}
+ .about .content .icons-container .icons .info-title .info-text{
+  flex: 1 1 16rem;
+  text-align: center;
+  font-size: .9rem;
 
-.about .content .icons-container .icons img{
-  height: 4rem;
-}
-
-.about .content .icons-container .icons h3{
- 
-  font-size: 2rem;
-  color:var(--light-black);
-  font-weight: normal;
-}
-
+ }
   
  
  
@@ -437,7 +430,7 @@ ul li a:hover{
   }
 
   div.image{
-    padding-block: -5px;
+    padding-block: -500px;
   }
 
   .home{
