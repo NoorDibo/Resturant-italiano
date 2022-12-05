@@ -206,8 +206,8 @@ text-shadow: 1px 1px 2px black;
   5px 0;
 font-size: 13px;
 text-shadow: 1px 1px 1px black;
-padding-left: 200px;
-padding-right: 200px;
+padding-left: 300px;
+padding-right: 300px;
 }
 
 .rad{
@@ -297,8 +297,8 @@ background: linear-gradient( rgba(141, 10, 10, 0.797), rgb(14, 2, 2));
     
   }
   .innhold p{
-  padding-left: 5px;
-padding-right: 5px;}
+  padding-left: -20px;
+padding-right: -20px;}
 
 .banner h1{
   padding-block: 33px 2px;
@@ -354,7 +354,12 @@ text-align: center;
   box-sizing: border-box;
   background-position: center center; }
   
-  
+  @media only screen and (max-width: 900px){
+    .innhold p{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
 
 
 
