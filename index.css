@@ -145,7 +145,7 @@ ul li a:hover{
 
  
   .home{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.pexels.com/photos/349609/pexels-photo-349609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center/cover no-repeat ;
 
     background-size: cover;
   }
@@ -235,7 +235,7 @@ ul li a:hover{
     font-size: 2.5rem;
     line-height: 1.5;
     width: 100%;
-   
+    text-shadow: 1px 1px 2px rgb(95, 83, 83);
     
     
   }
@@ -244,6 +244,7 @@ ul li a:hover{
     content: "";
     animation: changetext 10s infinite linear;
     color: #0fb346;
+    text-shadow: 1px 1px 2px black;
   }
   
   @keyframes changetext {
@@ -326,7 +327,7 @@ ul li a:hover{
 
 .about .content p{
   font-size: 1.7rem;
-  color:var(--light-black);
+  color:rgb(33, 49, 7);
   padding:1rem 0;
   line-height: 2;
 }
@@ -352,7 +353,7 @@ ul li a:hover{
 .about .content .icons-container .icons h3{
   padding-top: 1rem;
   font-size: 2rem;
-  color: #9c0404;
+  color: #000000;
   font-weight: normal;
 }
   
@@ -411,6 +412,26 @@ ul li a:hover{
     }
     #navbar ul{
         display: none;}
+
+        .main_btn{
+          
+          padding: 15px;
+          font-size: 2.5rem;
+          
+        }
+
+        .about .content p{
+          font-size: 2.8rem;}
+
+      .home .content p{
+        font-size: 3.5rem;
+      }
+
+      .content h1 {
+        font-size: 3.5rem;
+      }
+
+        
     
     
     
@@ -459,6 +480,11 @@ ul li a:hover{
 
   .heading{
     font-size: 3rem;
+  }
+
+  .main_btn{
+    width: 50%;
+    padding: 30px;
   }
 
 }
