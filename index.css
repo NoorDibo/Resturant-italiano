@@ -493,8 +493,9 @@ ul li a:hover{
 
 
 .footer-container{
+  border-radius: 5px;
   padding: 4rem 0 4rem 0;
-  background: url(https://cdn.pixabay.com/photo/2016/06/16/01/18/italy-1460295__480.jpg) center/cover no-repeat;
+  background: url(https://i0.wp.com/www.fratelli.net.nz/wp-content/uploads/2018/07/fratelli-italian-restaurant-wellington-cooking.jpg?fit=1920%2C1280&ssl=1) center/cover no-repeat;
 }
 
 .footer{
