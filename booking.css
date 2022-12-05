@@ -210,8 +210,8 @@ text-shadow: 1px 1px 1px black;
 
 .rad{
   display: flex;
-  width: 90%;
-  margin: 0 auto;
+  width: 95%;
+  margin:auto;
 
 }
 
@@ -344,4 +344,39 @@ text-align: center;
   padding: 0;
   box-sizing: border-box;
   background-position: center center;  
+}
+
+
+.footer-container{
+  padding: 4rem 0 4rem 0;
+  background-color: #27ae60;
+}
+
+.footer{
+  width: 90%;
+  height: auto;
+  background-color: #27ae60;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading a{
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+  color: rgba(120, 25, 25, 0.502);
+  transition: 0.4s ease-in;
+  transition: 0.4s ease-out;
 }
