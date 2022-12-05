@@ -494,7 +494,7 @@ ul li a:hover{
 
 .footer-container{
   padding: 4rem 0 4rem 0;
-  background: url(https://i0.wp.com/www.fratelli.net.nz/wp-content/uploads/2018/07/fratelli-italian-restaurant-wellington-cooking.jpg?fit=1920%2C1280&ssl=1) center/cover no-repeat;
+  background: url(https://cdn.pixabay.com/photo/2016/06/16/01/18/italy-1460295__480.jpg) center/cover no-repeat;
 }
 
 .footer{
@@ -512,6 +512,9 @@ ul li a:hover{
   flex-direction: column;
   margin-right: 4rem;
   color: white;
+    text-shadow: 1px 1px 2px black;
+    
+
 }
 
 .footer-heading a{
@@ -524,4 +527,9 @@ ul li a:hover{
   color: rgba(225, 18, 18, 0.502);
   transition: 0.4s ease-in;
   transition: 0.4s ease-out;
+}
+.footer-heading2{
+  text-shadow: 1px 1px 2px black;
+font-size:x-small
+
 }
